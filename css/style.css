@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Raleway,sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-size: 14px;
+
+}
+.header {
+    background: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.header-overlay {
+    background-color:rgba(31,31,31,0.75);
+}
+.logo {
+    padding-bottom: 50px;
+}
+.header-text h1{
+    color: #fff;
+    font-size:35px;
+    font-weight: 500;
+    line-height: 45px;
+    padding-top: 30px;
+}
+.header-text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    opacity: 0.7;
+}
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+    background: transparent;
+    border-color: #129CF3;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.btn-download:hover {
+    background-color: #129CF3 ;
+    opacity: 0.7;
+    color: #fff;
+}
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited
+{
+    background: transparent;
+    color: #fff;
+    margin-top:15px ;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+i {
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #f5f5f5;
+    opacity: 0.5;
+    transform-origin: center;
+    transition: 0.7s;
+    transform: rotate(-90deg);
+}
+.btn-tour:hover {
+    color: #fff;
+    opacity: 1;
+}
+.btn-tour:hover i{
+        transform: rotate(0deg);
+        color: #fff;
+        opacity: 1;
+}
+.header-iphone img{
+    width: 100%;
+}
