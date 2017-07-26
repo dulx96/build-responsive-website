@@ -342,3 +342,113 @@ p {
     background-color: #777777;
     opacity: 0.8;
 }
+
+/* Counter */
+.counter {
+    background-image: url("../images/counter-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50% 50%;
+}
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0,0,0,0.4);
+}
+
+.counter-item i {
+    color: #129cF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro",sans-serif;
+    color: #d7dadb;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    font-family: "Source Sans Pro",sans-serif;
+    text-transform: uppercase;
+    color: #d7dadb;
+    font-size: 20px;
+    font-weight: 300;
+}
+.counter-num {
+    padding-right: 10px;
+}
+
+/* download */
+.download-now img {
+    width: 100%;
+}
+.available-on {
+    background-color: #1a1a1a;
+    margin-top: -8px;
+    position: relative;
+}
+.available-title {
+    padding-top: 75px;
+}
+.available-title h2{
+    color: #fff;
+    font-size: 30px;
+}
+.available-title p {
+    color: #b5b5b5;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0f1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.available-on-item:hover {
+    opacity: 0;
+}
+.available-on-item i {
+    color: #129cF3;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.available-on-inner h2{
+    text-align: center;
+    font-weight: 300;
+    color: #D7DADB;
+    font-size: 16px;
+}
+.available-on-item:hover .available-on-inner {
+    opacity: 1;
+
+}
