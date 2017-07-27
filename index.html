@@ -18,7 +18,39 @@
 </head>
 <body>
 <!-- Header -->
-<header class="header">
+<header class="header" id="HOME">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#HOME">
+                    <!-- small size logo -->
+                    <img src="images/logo-small.png" alt="logo">
+
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#HOME" class="nav-item">HOME</a></li>
+                    <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
+                    <li><a href="#FEATURES" class="nav-item">FEATURES</a></li>
+                    <li><a href="#SCREENS" class="nav-item">SCREENS</a></li>
+                    <li><a href="#DOWNLOAD" class="nav-item">DOWNLOAD</a></li>
+                    <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
+                </ul>
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
     <div class="header-overlay">
         <div class="container">
             <div class="row">
@@ -58,7 +90,7 @@
 </header>
 
 <!-- About us -->
-<section>
+<section class="about-us" id="ABOUT">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -189,7 +221,7 @@
 </section>
 
 <!-- Features -->
-<section class="features">
+<section class="features" id="FEATURES">
     <div class="container">
 
         <div class="row">
@@ -298,7 +330,7 @@
 
 
 <!-- Screens -->
-<screen class="screens">
+<screen class="screens" id="SCREENS">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -375,7 +407,7 @@
     </div>
 </section>
 <!-- Download -->
-<section class="download-now">
+<section class="download-now" id="DOWNLOAD">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -454,9 +486,8 @@
         </div>
     </div>
 </section>
-
 <!-- Contact Us -->
-<section class="contact-us">
+<section class="contact-us" id="CONTACT">
     <!-- contact us title -->
     <div class="container">
         <div class="row">
@@ -513,9 +544,32 @@
         </div>
 
 </section>
+
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div id="copy-right">
+                    <p> Copyright &copy; 2016 <a href="#">- Loso</a></p>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="scroll-top">
+                <a href="#HOME"><i class="fa fa-angle-up"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- script -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/master.js"></script>
 </body>
 
 </html>
