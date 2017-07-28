@@ -146,7 +146,6 @@ $(document).ready(function () {
        time: 1000
     });
 });
-
 // Add animation
 $(document).ready(function () {
    new WOW().init();
